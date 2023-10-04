@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Login Authentication</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./images/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="label">User Login</h1>
+            <form class="login_form" action="dashboard.html" method="get" name="form" onsubmit="return validated()" >
+                
+                <div class="font">Email or Phone</div>
+                <input autocomplete="off" type="text" name="email">
+                <div id="email_error">Enter the email or phone</div>
+
+                <div class="font font2">Password</div>
+                <input type="password" name="password">
+                <div id="pass_error">Enter the password</div>
+                <button type="Submit">Login</button>
+                
+            </form>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
